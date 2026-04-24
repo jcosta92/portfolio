@@ -56,10 +56,52 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Sales Engineering",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Led and developed B2B offers with a total value of over €10M in the logistics sector for +6 years",
+        "⚡ Requirements Management by importing tenders with ReqMan, attributing and classifying technical requirements",
+        "⚡ Coordination with Engineering teams to develop solutions that meet customer needs and align with company capabilities",
+        "⚡ Main point of contact for all national customers",
+        "⚡ Responsible for the entire sales cycle, from prospecting to closing, including RFPs, internal approvals, bid calculation and documentation",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Sales Engineering",
+          fontAwesomeClassname: "mdi:account-tie",
+          style: {
+            color: "#0A66C2",
+          },
+        },
+        {
+          skillName: "Bid Management",
+          fontAwesomeClassname: "mdi:file-document-edit-outline",
+          style: {
+            color: "#2E7D32",
+          },
+        },
+        {
+          skillName: "Requirements",
+          fontAwesomeClassname: "mdi:clipboard-check-outline",
+          style: {
+            color: "#6A1B9A",
+          },
+        },
+        {
+          skillName: "Key Accounts",
+          fontAwesomeClassname: "mdi:handshake-outline",
+          style: {
+            color: "#EF6C00",
+          },
+        },
+      ],
+    },
+    {
       title: "Data Analytics & AI",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developed a prediction model in Big Data",
+        "⚡ Data analysis with Python, SQL, Tableau & Excel VBA automation",
         "⚡ Experience of working with NLP projects and Web Scrapping",
         "⚡ GenAI and Cloud enthusiastic learner",
       ],
@@ -88,199 +130,92 @@ const skills = {
         },
         {
           skillName: "Azure",
-          fontAwesomeClassname: "logos-microsoft-azure",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-      ],
-    },
-    {
-      title: "Sales Engineering",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#0089D6",
           },
         },
+      ],
+    },
+    {
+      title: "Procurement Management",
+      fileName: "LogisticsImg",
+      skills: [
+        "⚡ Main resposible for purchasing requisitions in our unit",
+        "⚡ Managing SAP processes from requisition to reception of material",
+        "⚡ Contact with all the suppliers",
+        "⚡ Logististics management with transportation companies",
+      ],
+      softwareSkills: [
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
+          skillName: "SAP",
+          fontAwesomeClassname: "simple-icons:sap",
+          style: { color: "#0FAAFF" },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+          skillName: "Procurement",
+          fontAwesomeClassname: "fa-solid:file-invoice-dollar",
+          style: { color: "#F59E0B" },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          skillName: "Suppliers",
+          fontAwesomeClassname: "fa-solid:handshake",
+          style: { color: "#2563EB" },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          skillName: "Logistics",
+          fontAwesomeClassname: "fa-solid:truck",
+          style: { color: "#EA580C" },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          skillName: "Inventory",
+          fontAwesomeClassname: "fa-solid:boxes-stacked",
+          style: { color: "#8B5CF6" },
+        },
+        {
+          skillName: "Operations",
+          fontAwesomeClassname: "fa-solid:gears",
+          style: { color: "#64748B" },
         },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Project Management",
+      fileName: "PMImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Managed a contract maintenance project with a team of 2 technicians, ensuring timely resolution of incidents and supply of spare parts",
+        "⚡ Responsible for project management of an IT Retrofit project",
+        "⚡ Currently managing Customer Service incidents",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "MS Project",
+          imageSrc: "MSProject.png",
+        },
+        {
+          skillName: "Team Leadership",
+          fontAwesomeClassname: "fa-solid:users",
           style: {
-            color: "#FF2BC2",
+            color: "#1D4ED8",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Maintenance",
+          fontAwesomeClassname: "fa-solid:wrench",
           style: {
-            color: "#F24E1E",
+            color: "#64748B",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Customer Service",
+          fontAwesomeClassname: "fa-solid:headset",
           style: {
-            color: "#FF7C00",
+            color: "#F59E0B",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
+          skillName: "SharePoint",
+          imageSrc: "Sharepoint.png",
         },
       ],
     },
