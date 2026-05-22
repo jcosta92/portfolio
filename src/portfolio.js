@@ -20,8 +20,8 @@ const seo = {
 const greeting = {
   title: "José Costa",
   logo_name: "JoséCosta",
-  nickname: "handyman",
-  subTitle: "An experienced Sales Engineer, passionate about Data and AI.",
+  //nickname: "handyman",
+  subTitle: "An experienced Sales Engineer, passionate about AI and Data.",
   resumeLink: "https://www.linkedin.com/in/josecosta1992/",
   portfolio_repository: "https://github.com/jcosta92/",
   githubProfile: "https://github.com/jcosta92/",
@@ -100,10 +100,11 @@ const skills = {
       title: "Data Analytics & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developed a prediction model in Big Data",
-        "⚡ Data analysis with Python, SQL, Tableau & Excel VBA automation",
+        "⚡ Excel facilitator for Sales and Management teams, developing tools for automation and KPI analysis",
+        "⚡ Developed a prediction model in Big Data and data visualization projects using Tableau",
+        "⚡ Data analysis and cleaning with Python and SQL",
         "⚡ Experience of working with NLP projects and Web Scrapping",
-        "⚡ GenAI and Cloud enthusiastic learner",
+        "⚡ GenAI and Cloud enthusiastic learner and practitioner",
       ],
       softwareSkills: [
         {
@@ -396,7 +397,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of technology tools, including Python, SQL, Tableau, Excel, and web programming.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -414,7 +415,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "zeca.png",
+    profile_image_path: "zeca2.png",
     description:
       "Feel free to contact me for any reason. I am open to discussing new opportuinities and collaborations.",
   },

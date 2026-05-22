@@ -4,22 +4,52 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
+import SalesImg from "./sales.png";
 import LogisticsImg from "./Logistics1.png";
+import DataAIImg from "./data.png";
 import PMImg from "./PM1.png";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
+    return (
+      <img
+        src={DataAIImg}
+        alt="Data & AI"
+        className="skill-image"
+        style={{
+          width: "100%",
+          maxWidth: "650px",
+          height: "auto",
+          opacity: 0.9,
+        }}
+      />
+    );
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return (
+      <img
+        src={SalesImg}
+        alt="Sales Engineering"
+        className="skill-image"
+        style={{
+          width: "100%",
+          maxWidth: "650px",
+          height: "auto",
+          opacity: 0.9,
+        }}
+      />
+    );
   else if (props.fileName === "LogisticsImg")
     return (
       <img
         src={LogisticsImg}
         alt="Logistics"
         className="skill-image"
-        style={{ width: "100%", maxWidth: "1000px", height: "auto" }}
+        style={{
+          width: "100%",
+          maxWidth: "650px",
+          height: "auto",
+          opacity: 0.9,
+        }}
       />
     );
   else if (props.fileName === "PMImg")
@@ -28,7 +58,12 @@ function GetSkillSvg(props) {
         src={PMImg}
         alt="Project Management"
         className="skill-image"
-        style={{ width: "100%", maxWidth: "1000px", height: "auto" }}
+        style={{
+          width: "100%",
+          maxWidth: "650px",
+          height: "auto",
+          opacity: 0.9,
+        }}
       />
     );
 

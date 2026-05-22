@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+.education-image {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  opacity: 0.95;
+}
+
 .basic-education {
   margin-left: 5%;
   margin-right: 5%;
@@ -16,9 +23,10 @@
 }
 
 .heading-img-div {
+  flex: 0 0 20%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .heading-text-div {
@@ -67,5 +75,14 @@
 
   .heading-div {
     flex-direction: column;
+  }
+
+  .education-image {
+    max-width: 220px;
+  }
+
+  .heading-img-div,
+  .heading-text-div {
+    flex: 0 0 100%;
   }
 }
