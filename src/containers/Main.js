@@ -32,7 +32,7 @@ export default class Main extends Component {
   }
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/portfolio">
         <Switch>
           <Route
             path="/"
