@@ -387,7 +387,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of technology tools, including Python, SQL, Tableau, Excel, and web programming.",
+    "My projects make use of vast variety of technology tools, including Python, SQL, Tableau, Excel, and web programming.",
   avatar_image_path: "projects_image.svg",
 };
 
