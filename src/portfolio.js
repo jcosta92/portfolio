@@ -22,8 +22,8 @@ const greeting = {
   logo_name: "JoséCosta",
   //nickname: "handyman",
   subTitle: "An experienced Sales Engineer, passionate about AI and Data.",
-  resumeLink: "https://www.linkedin.com/in/josecosta1992/",
-  portfolio_repository: "https://github.com/jcosta92/",
+  resumeLink: "/portfolio/CV_Jose_Costa.pdf",
+  portfolio_repository: "https://github.com/jcosta92/portfolio",
   githubProfile: "https://github.com/jcosta92/",
 };
 
