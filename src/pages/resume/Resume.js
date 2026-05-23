@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { Fade } from "react-reveal";
 import "./Resume.css";
-import myResumePdf from "../../assets/docs/CV_Jose Costa.pdf";
+import myResumePdf from "../../assets/docs/CV_Jose_Costa.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
@@ -87,12 +87,16 @@ export default class ResumePage extends Component {
             <div>
               {/* Download Button */}
               <div className="download-btn">
-                <Button
-                  text="📃 Download Resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                  theme={theme}
-                />
+                <a
+                  href={myResumePdf}
+                  download="CV_Jose_Costa.pdf"
+                  className="download-link"
+                >
+                  <Button
+                    text="📃 Download Resume"
+                    theme={theme}
+                  />
+                </a>
               </div>
 
               {/* Loading State */}
