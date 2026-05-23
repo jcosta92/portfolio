@@ -103,8 +103,8 @@ const skills = {
         "⚡ Excel facilitator for Sales and Management teams, developing tools for automation and KPI analysis",
         "⚡ Developed a prediction model in Big Data and data visualization projects using Tableau",
         "⚡ Data analysis and cleaning with Python and SQL",
-        "⚡ Experience of working with NLP projects and Web Scrapping",
-        "⚡ GenAI and Cloud enthusiastic learner and practitioner",
+        "⚡ Experience working with NLP projects and Web Scraping",
+        "⚡ Enthusiastic practitioner and continuous learner in GenAI and Cloud technologies",
       ],
       softwareSkills: [
         {
@@ -142,10 +142,10 @@ const skills = {
       title: "Procurement Management",
       fileName: "LogisticsImg",
       skills: [
-        "⚡ Main resposible for purchasing requisitions in our unit",
+        "⚡ Main responsible for purchasing requisitions in our unit",
         "⚡ Managing SAP processes from requisition to reception of material",
         "⚡ Contact with all the suppliers",
-        "⚡ Logististics management with transportation companies",
+        "⚡ Logistics management with transportation companies",
       ],
       softwareSkills: [
         {
@@ -231,7 +231,7 @@ const degrees = {
         "⚡ Applied ETL, Data Scrubbing and ETL workflows, Data Cleaning and Preprocessing, Feature Engineering, JOINs, Aggregations, Query Performance optimization and Exploratory Data Analysis.",
         "⚡ Created dynamic Tableau BI dashboards and reports.",
         "⚡ Explored machine learning fundamentals, including Regression Analysis, Classification Analysis, Clustering Analysis, NLP, Model Assessment techniques and Predictive Analytics Processes.",
-        "⚡ Developed practical applications through working with API's, Web Scraping tools, automated script menus.",
+        "⚡ Developed practical applications using APIs, Web Scraping tools, and automated scripting solutions.",
       ],
       website_link: "https://www.ironhack.com/",
     },
@@ -245,7 +245,7 @@ const degrees = {
         "⚡ Studied and did projects on subjects such as Renewable Energy Sources, Production Planning and Control, Refrigeration, Investment Engineering and Energy Systems.",
         "⚡ Developed social intelligence and intercultural communication skills.",
         "⚡ Improved language skills.",
-        "⚡ Traveled and explored new cultures through Eastern europe.",
+        "⚡ Traveled and explored new cultures throughout Eastern Europe.",
       ],
       website_link: "https://www.uni-lj.si/en",
     },
@@ -268,7 +268,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Azure Cloud Foundamentals",
+      title: "Azure Cloud Fundamentals",
       subtitle: "- Microsoft",
       logo_path: "microsoft_logo.png",
       certificate_link:
@@ -311,7 +311,7 @@ const certifications = {
       color_code: "#ffffff99",
     },
     {
-      title: "Emmotional Intelligence",
+      title: "Emotional Intelligence",
       subtitle: "- Paulo Moreira",
       logo_path: "ei.png",
       certificate_link: "https://ciie.paulojmoreira.com/ciie",
@@ -326,7 +326,7 @@ const experience = {
   title: "Experience",
   //subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked in big corporate environments within the Energy and Logistics sectors. I have experience in working with cross-functional teams and management, allowing me to contribute to the company's business development.",
+    "Experienced in large corporate environments within the Energy and Logistics sectors, collaborating with cross-functional teams and management to support business development and deliver customer-focused solutions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -342,8 +342,8 @@ const experience = {
           location: "Lisbon, Portugal",
           description: [
             "Leading all national offers and supporting international offers, totalizing an involvement in more than 300 offers since 2019 in the logistics business.",
-            "Won B2B bids summing a total value above 10 million euros.",
-            "Main responsible in Portugal for Requirements Management.",
+            "Won B2B bids totaling more than €10 million.",
+            "Lead responsible in Portugal for Requirements Management.",
             "Spearheaded logistics and procurement for 2 complete parcel logistics projects. Main point of contact with suppliers.",
             "Key Account Manager for the main national customers.",
             "SAP manager for creating project purchase requisitions.",
@@ -407,7 +407,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "zeca2.png",
     description:
-      "Feel free to contact me for any reason. I am open to discussing new opportuinities and collaborations.",
+      "Feel free to contact me for any reason. I am open to discussing new opportunities and collaborations.",
   },
 
   addressSection: {
