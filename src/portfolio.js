@@ -8,7 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "José's Résumé",
-  description: "An experienced Sales Engineer, passionate about Data and AI.",
+  description: "Experienced Sales Engineer, focused on Data Analytics and AI.",
   og: {
     title: "José Costa Résumé",
     type: "website",
@@ -21,7 +21,7 @@ const greeting = {
   title: "José Costa",
   logo_name: "J. Costa",
   //nickname: "handyman",
-  subTitle: "Experienced Sales Engineer, passionate about AI and Data.",
+  subTitle: "Experienced Sales Engineer, focused on Data Analytics and AI.",
   resumeLink: "/portfolio/CV_Jose_Costa.pdf",
   portfolio_repository: "https://github.com/jcosta92/portfolio",
   githubProfile: "https://github.com/jcosta92/",
