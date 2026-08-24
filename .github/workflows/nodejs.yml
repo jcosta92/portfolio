@@ -1,19 +1,22 @@
-
 name: Node.js CI
+
+# Quality gate only — this workflow does not publish anything.
+# CI=true makes react-scripts treat ESLint warnings as build errors, which is
+# what keeps lint problems visible. Deployment is handled by deploy.yml and is
+# deliberately not blocked by warnings.
 
 on:
   push:
-    branches:  
-    - master
-    - releases/*
+    branches:
+      - master
+      - releases/*
   pull_request:
     branches:
-    - master
-    - releases/*
+      - master
+      - releases/*
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -21,13 +24,20 @@ jobs:
         node-version: [20.x]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
-      env:
-        CI: true
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build --if-present
+        env:
+          CI: true
+
+      - run: npm test
+        env:
+          CI: true
