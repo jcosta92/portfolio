@@ -5,7 +5,7 @@
       "name": "Norvek Hub CMS",
       "createdAt": "2026-08-24T00:00:00Z",
       "url": "https://github.com/jcosta92/Norvek-Hub-CMS",
-      "description": "Headless content platform on Strapi 5 for an industrial manufacturer — one content model serving four audiences across three frontends, with role-scoped access, custom lifecycles and a nightly derived-risk job.",
+      "description": "Headless content platform on Strapi 5 for an industrial manufacturer — one content model serving four audiences across three frontends.",
       "isFork": false,
       "languages": [
         {
