@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df05f8a2e8fea8eca736c1d60962f48f",
+    "revision": "cd73277f5bb93687e5479f3f03a8f034",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "94e7fc9f073f0b66d159",
+    "revision": "3671bf5eca0772f47169",
     "url": "/portfolio/static/css/main.1d97c8d3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.0e4579f3.chunk.js"
   },
   {
-    "revision": "94e7fc9f073f0b66d159",
-    "url": "/portfolio/static/js/main.b7929344.chunk.js"
+    "revision": "3671bf5eca0772f47169",
+    "url": "/portfolio/static/js/main.a2d8c490.chunk.js"
   },
   {
     "revision": "e73ac9e279836ecdfedf",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Agustina.21f233e1.woff"
   },
   {
-    "revision": "3794bcf97cbcbc588668a8b3db72f094",
-    "url": "/portfolio/static/media/CV_Jose_Costa.3794bcf9.pdf"
+    "revision": "91a5ef27151847dbbb8f8571034ce058",
+    "url": "/portfolio/static/media/CV_Jose_Costa.91a5ef27.pdf"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
