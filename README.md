@@ -1,15 +1,6 @@
 # José Costa Portfolio
 
-Personal portfolio website showcasing my professional journey as a Sales Engineer transitioning into AI, Cloud, and Solutions Engineering.
-
-The website highlights:
-
-* Professional experience
-* Technical skills
-* AI & cloud learning path
-* Personal and technical projects
-* Certifications
-* Contact information
+Personal portfolio webpage.
 
 ---
 
@@ -60,7 +51,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone (this repo)
 ```
 
 Install dependencies:
