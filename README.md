@@ -25,9 +25,7 @@ The website highlights:
 
 ## 🌐 Live Website
 
-https://YOUR_USERNAME.github.io/REPOSITORY_NAME
-
-*(Replace with your actual deployed URL)*
+https://jcosta92.github.io/portfolio/
 
 ---
 
